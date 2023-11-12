@@ -21,6 +21,9 @@ const Index = props => {
     description: siteConfig('DESCRIPTION'),
     image: siteConfig('HOME_BANNER_IMAGE'),
     slug: '',
+    other: {
+        'google-site-verification': 'H0JOZuaDxGPXe74o48OQIUZ_UDVp8LFK0vCZaoXdsHE'
+    },
     type: 'website'
   }
   return <Layout meta={meta} {...props} />
